@@ -833,43 +833,31 @@ body {
 	padding: 8px 25px;
 }
 
-.contact_left {
-	padding: 8px 30px;
+.contact-container {
+	/* max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	background: #fff;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 8px; */
 }
 
-.contact_right {
-	padding: 5px 0px;
+.contact-item {
+	margin: 15px 0;
+	display: flex;
+	align-items: center;
 }
-
-.contact_title {
-	font-size: 37px;
-	font-weight: bold;
-	line-height: 30px;
-	margin-bottom: 5px;
+.contact-item img {
+	width: 24px;
+	height: 24px;
+	margin-right: 10px;
 }
-
-.contact_sub_title {
-	font-size: 15px;
+.contact-item a {
+	/* text-decoration: none;
+	color: #007bff; */
 }
-
-.contact_text {
-	font-size: 15px;
-	line-height: 25px;
-	margin-top: 30px;
-	margin-bottom: 25px;
-}
-
-.contact_info {
-	font-size: 14px;
-	font-style: italic;
-	font-weight: bold;
-	line-height: 25px;
-	margin-left: 10px;
-	margin-bottom: 15px;
-}
-
-.contact-fa {
-	width: 25px;
+.contact-item a:hover {
+	/* text-decoration: underline; */
 }
 
 .social-icon {
